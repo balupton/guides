@@ -11,13 +11,13 @@ Which will generate a new `my-new-app` directory with your new Ember app inside.
 cd my-new-app
 ```
 
-Currently, Ember CLI still installs Ember v1.13, this will change in the future. In the meantime, to install Ember v2.0, you must use bower to grab the latest version (if asked which version you want, press the number for ember 2):
+Currently, [Ember CLI still installs Ember v1.13](https://github.com/ember-cli/ember-cli/issues/4671), this will change in the future. In the meantime to install Ember v2.0, you can use Bower to grab the latest version (if asked which version you want, press the number for ember 2), do this by:
 
 ```shell
 bower install ember
 ```
 
-To get started with your development, launch the Ember CLI development server using:
+To start with your development, launch the Ember CLI development server using:
 
 ```shell
 ember server
